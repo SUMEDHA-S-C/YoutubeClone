@@ -1,0 +1,24 @@
+.homepage-container article {
+    display: flex !important;
+    height: 87vh;
+    margin: 0;
+    padding: 0;
+}
+
+.img {
+    flex-basis: 70%;
+    background-image: url("./images/backgroudImg-Homepage.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text {
+    flex-basis: 30%;
+}
+
+.homepage-text {
+    width: 100%;
+    margin: 55% 20px;
+    box-shadow: 1px 1px 5px 1px #eee;
+    border-radius: 10px !important;
+}
